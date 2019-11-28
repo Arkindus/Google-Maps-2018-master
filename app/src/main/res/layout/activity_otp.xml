@@ -1,0 +1,106 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/email_register_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="213dp"
+            android:layout_height="136dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/dasalt" />
+
+        <EditText
+            android:id="@+id/et_phone_number"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="@string/phone"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="@color/White"
+            android:textColorHint="@color/White"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btn_generate_otp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/generate"
+            android:textColor="@color/SlateGrey"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relLayout1">
+
+
+            <TextView android:id="@+id/btn_resend_otp"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/resendotp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/White"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_otp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="@string/otp"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="@color/White"
+            android:textColorHint="@color/White"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/register"
+            android:textAllCaps="false"
+            android:textColor="@color/SlateGrey"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

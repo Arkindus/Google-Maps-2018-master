@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "986712405409",
+    "firebase_url": "https://dbdasalt.firebaseio.com",
+    "project_id": "dbdasalt",
+    "storage_bucket": "dbdasalt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986712405409:android:095056b9ea28a71213c7e0",
+        "android_client_info": {
+          "package_name": "com.codingwithmitch.googlemaps2018"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986712405409-6jf8s4gaf1ff96edteqj5ubne6c768t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfABKzUEjjrPTp6mbjBueq8MqYsWxkzZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986712405409-6jf8s4gaf1ff96edteqj5ubne6c768t2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
